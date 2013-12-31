@@ -331,7 +331,7 @@ fun! SetupVAM()
     exec 'set runtimepath+='.vam_install_path.'/vim-addon-manager'
 
     " Tell VAM which plugins to fetch & load:
-    call vam#ActivateAddons(["snipmate-snippets", "SuperTab%1643", "OmniCppComplete", 
+    call vam#ActivateAddons(["better-snipmate-snippet", "Supertab", "OmniCppComplete", 
                 \"The_NERD_tree", "The_NERD_Commenter", "Conque_Shell"], {'auto_install' : 0})
     " sample: call vam#ActivateAddons(['pluginA','pluginB', ...], {'auto_install' : 0})
 
