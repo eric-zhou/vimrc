@@ -2,4 +2,3 @@ vimrc
 =====
 
 my vimrc
-test

@@ -332,7 +332,7 @@ fun! SetupVAM()
 
     " Tell VAM which plugins to fetch & load:
     call vam#ActivateAddons(["better-snipmate-snippet", "Supertab", "OmniCppComplete", 
-                \"The_NERD_tree", "The_NERD_Commenter", "Conque_Shell", "bufexplorer", "minibufexpl"], {'auto_install' : 0})
+                \"The_NERD_tree", "The_NERD_Commenter", "Conque_Shell", "minibufexplorer"], {'auto_install' : 0})
     " sample: call vam#ActivateAddons(['pluginA','pluginB', ...], {'auto_install' : 0})
 
     " Addons are put into vam_install_path/plugin-name directory
